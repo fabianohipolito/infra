@@ -1,0 +1,30 @@
+# Arquivo para Estudo do GIT
+
+
+
+git config --global user.name #adiocnar o usuario do github                       
+git config --global user.email #adicionar o email que esta cadastrado no github   
+
+
+git init #Cria um novo repositorio 
+git remote add origin git@github.com:usuariodogithub/nomedorespositorio.git 
+#Configurar o repositorio do github 
+
+git push -u origin master # Primeiro push no git
+
+git add . ou nome do arquivo #Vai adicionar os arquivos que tiverem sido editado no github
+
+git commit -m "Digitar o que foi alterado" #Comitar Informando mensagem
+git commit #Comitar pelo editor de texto
+git push #Vai enviar os arquivos para o github
+
+git log #  Exibe Histórico
+git status #Vai informar o status dos arquivos se teve alteração ou não
+
+git pull #Mantém git e github atualizado
+git config --global core.editor vim #Difine o editor de texto no commit
+
+git rm nome_do_arquivo # Remove Arquivo GIT
+git rm -r diretorio #Remove Diretorio do GIT
+
+git clone git@github.com:usuriodogithub/nomedorep.git
