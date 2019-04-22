@@ -17,5 +17,5 @@ git push #Vai enviar os arquivos para o github
 git log #Vai informar log do git
 git status #Vai informar o status dos arquivos se teve alteração ou não
 
-
+git pull #Mantém git e github atualizado
 
