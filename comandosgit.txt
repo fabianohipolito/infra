@@ -11,7 +11,7 @@ git push -u origin master #
 
 git add . ou nome do arquivo #Vai adicionar os arquivos que tiverem sido editado no github
 
-git commit "Digitar o que foi alterado" 
+git commit -m "Digitar o que foi alterado" 
 git push #Vai enviar os arquivos para o github
 
 git log #Vai informar log do git
