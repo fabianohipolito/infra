@@ -1,0 +1,14 @@
+Comandos basicos do ansible ad-hoc
+
+ansible ip
+
+-i inventario (host)
+-m modulo e -a argumento
+-u usuario
+-k senha do usuario
+-K senha do sudo
+-b executar super usuario
+-v verbose
+
+ansible all -i hosts -m ping -u suporte -k
+ansible -i hosts mysql -m shell -a "sudo apt update"
