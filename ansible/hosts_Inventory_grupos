@@ -12,11 +12,11 @@ servidores_bd
 [servidores_web:vars]
 ansible_sshport=22
 ansible_ssh_user=suporte
-ansible_ssh_pass=TSenha 
+ansible_ssh_pass=Senha 
 ansible_become=yes
 ansible_become_method=sudo
 ansible_become_user=suporte
-ansible_become_pass_Senha
+ansible_become_pass=Senha
 ansible_connection=ssh
 
 [servidores_bd:vars]
