@@ -16,7 +16,7 @@ ansible_ssh_pass=Tricolor@08
 ansible_become=yes
 ansible_become_method=sudo
 ansible_become_user=suporte
-ansible_become_pass_=senha
+ansible_become_pass_Senha
 ansible_connection=ssh
 
 [servidores_bd:vars]
