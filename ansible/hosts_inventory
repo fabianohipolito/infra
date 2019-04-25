@@ -1,0 +1,10 @@
+[servidores_web]
+192.168.1.30
+
+[servidores_bd]
+mysql ansible_ssh_host=192.168.1.10 ansible_ssh_user=suporte ansible_ssh_pass=Tricolor@08 ansible_become=yes ansible_become_method=sudo  ansible_become_user=suporte ansible_become_pass=Tricolor@08
+
+[servidores:children]
+servidores_web
+servidores_bd
+
