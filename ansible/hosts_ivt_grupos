@@ -12,7 +12,7 @@ servidores_bd
 [servidores_web:vars]
 ansible_sshport=22
 ansible_ssh_user=suporte
-ansible_ssh_pass=Tricolor@08
+ansible_ssh_pass=TSenha 
 ansible_become=yes
 ansible_become_method=sudo
 ansible_become_user=suporte
